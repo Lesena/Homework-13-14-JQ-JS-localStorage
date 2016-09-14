@@ -1,0 +1,8 @@
+https://tproger.ru/articles/localstorage/
+http://itchief.ru/lessons/javascript/javascript-sessionstorage-and-localstorage
+http://ru.stackoverflow.com/questions/tagged/localstorage
+http://ru.stackoverflow.com/questions/317412/¬ывод-значени€-ключей-в-названии-которых-присутствует-строка-localstorage?rq=1
+http://ru.stackoverflow.com/questions/449590/ ак-периодически-подставл€ть-данные-из-localstorage-в-textarea?rq=1
+http://ru.stackoverflow.com/questions/456158/—охранение-добавленного-текста-после-перезагрузки-страницы-подобие-добавлени€-к?rq=1
+http://ru.stackoverflow.com/questions/530644/–абота-с-localstorage- ак-сделать-чтобы-присвоенный-блоку-класс-сохранилс€-по?rq=1
+http://ru.stackoverflow.com/tags/localstorage/hot
