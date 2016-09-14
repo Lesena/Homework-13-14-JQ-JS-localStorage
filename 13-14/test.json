@@ -1,0 +1,29 @@
+{
+  "The biggest gland in humans": {
+    "salivary": "false",
+    "eye": "false",
+    "Sex": "false",
+    "liver": "true"
+  },
+  "The largest organ in the human body": {
+    "liver": "false",
+    "cerebrum": "true",
+    "eye": "false"
+  },
+  "The most important muscle in the human body": {
+    "Spinal": "true",
+    "Circular": "true",
+    "Chewing": "true",
+    "eye": "false"
+  },
+  "Energy is generated in": {
+    "Sirius": "false",
+    "salivary": "true",
+    "liver": "false",
+    "Sex": "false"
+  },
+  "Farthest spacecraft from Earth": {
+    "Voyager 1": "true",
+    "Voyager 2": "false"
+  }
+}
