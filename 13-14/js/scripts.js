@@ -8,16 +8,16 @@ $(function () {
     var overlay;
     var modal;
 
-    //�� �������� �������� ������� � ���������� ������ � ��������� � localstorage, �� ���������� ������� �� ����������
-    $.getJSON("https://brootle.github.io/js_13_14_Test_localStorage/test.json", function (data) {
-        // get JSON data from a file as an object and save it to local storage as JSON
+    //мы получаем тестовые вопросы с вариантами ответа и сохранить в localstorage, но правильных ответов не определены
+    $.getJSON("https://github.com/Lesena/Homework-13-14-JQ-JS-localStorage/blob/master/13-14/test-simple.json", function (data) {
+        // получить json-данные из файла как объект и сохранить его в локальном хранилище как json
         localStorage.setItem('examQuestions', JSON.stringify(data));
     });
 
    
-    var softwareTest = localStorage.getItem('examQuestions'); // get JSON formatted string from local storage
+    var softwareTest = localStorage.getItem('examQuestions'); // получить отформатированный json-строки из локального хранилища
 
-    softwareTest = JSON.parse(softwareTest); // convert JSON format string to JavaScript object
+    softwareTest = JSON.parse(softwareTest); // преобразовать строку формата json в объект JavaScript
     
 
     var html = $('#exam').html();
@@ -83,7 +83,7 @@ $(function () {
         //console.log(testResults);
 
         // now we get questions and defined correct replies
-        $.getJSON("https://brootle.github.io/js_13_14_Test_localStorage/testWithReplies.json", callbackFuncWithData);
+        $.getJSON("https://github.com/Lesena/Homework-13-14-JQ-JS-localStorage/blob/master/13-14/test.json", callbackFuncWithData);
 
         function callbackFuncWithData(data) {
             localStorage.setItem('examQuestionsAndReplies', JSON.stringify(data));
